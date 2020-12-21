@@ -1,0 +1,29 @@
+@media only screen and (min-width: 1024px){
+    
+    /*division to group avatar/name and tweet section*/
+    .below-nav{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 100px; 
+    }
+
+    /* Avatar and my name division */
+    .top-header{
+        margin-left: 3em;
+        margin-right: 2em;
+        width: 35vw;
+        width: 200em;
+        height: 18em;
+    } 
+
+    /* text box and previous tweets division*/
+    .container{
+        margin-top: 120px;
+        margin-left: 4em;
+        flex-wrap: wrap;
+        align-items: flex-end;
+        margin-right: 3em;
+        width: 60em;
+    } 
+} 

@@ -1,0 +1,58 @@
+.container {
+  margin-top: 3em;
+  display: flex;
+  justify-content: center;
+  border-color: transparent;
+}
+
+/* validation errors */
+.error1 {
+  opacity: 1;
+  animation: blinker 1.5s cubic-bezier(0.5, 0, 1, 1) infinite alternate;
+  border-style: solid;
+  border-color: red;
+  color: red;
+  display: flex;
+  justify-content: center;
+}
+
+.error2 {
+  display: flex;
+  justify-content: center;
+  border-style: solid;
+  border-color: red;
+  color: red;
+  animation: blinker 5s cubic-bezier(0.5, 0, 1, 1) infinite alternate;
+}
+
+/* text box area to enter new tweets */
+.new-tweet-input {
+  border-color: transparent;
+  background-color: transparent;
+  border-bottom-color: black;
+  border-bottom-width: 0.1em;
+  font-weight: 600;
+  width: 40em;
+}
+
+/* character counter */
+.counter {
+  float: right;
+  font-size: 1em;
+}
+
+.button-counter-font {
+  font-family: "Bungee", cursive;
+}
+
+.button {
+  background-color: #4056a1;
+  color: #ffffff;
+}
+
+/* animation for validation errors */
+@keyframes blinker {
+  to {
+    opacity: 0;
+  }
+}

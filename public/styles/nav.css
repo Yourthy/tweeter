@@ -1,0 +1,31 @@
+nav {
+    height: 5em;
+    color: #FFFFFF;
+    background-color: #4056A1;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.tweeter-logo-nav{
+    margin-left: 1em;
+}
+
+.new-tweet-nav{
+    margin-right: 2em;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.arrow-icon{
+    color: orange;
+    display:flex;
+    justify-content: center;
+}
+
+
+

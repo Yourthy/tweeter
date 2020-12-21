@@ -1,0 +1,86 @@
+/* division for individual box around tweets */
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 2em;
+    height: 8em;
+    border-style: solid;
+    border-color: black;
+    background-color:  #f4f1ec;
+    margin: 1em; 
+}
+
+/* when cursor is placed over individual tweet, a blue-ish black shadow appears behind the box */
+.box:hover{
+      border:solid black;
+      box-shadow: 10px 10px 5px rgba(103, 155, 204, 0.589);
+      -moz-box-shadow: 10px 10px 5px rgba(103, 155, 204, 0.589);
+      -webkit-box-shadow: 10px 10px 5px rgba(103, 155, 204, 0.589);
+      -khtml-box-shadow: 10px 10px 5px rgba(103, 155, 204, 0.589);
+}
+
+/* top area of individual tweet ... includes the avatar and, name and twitter handle */
+.header-details{
+    height: 3em;
+    color: rgb(5, 5, 5);
+    font-weight: 600;
+    display:flex;
+    justify-content: space-between;
+    margin-top: 0.1em;
+    background-color:  #f4f1ec;
+}
+
+.header-icon-name{
+    margin-left: .5em;
+}
+
+.twitter-handle{
+    margin-right: 1em;
+    visibility: hidden;
+}
+
+/* allows twitter handle to appear when cursor is placed over individual tweet boxes */
+.box:hover .twitter-handle{
+    display: flex;
+    align-items: center;
+    visibility: visible;
+    color: rgba(103, 155, 204, 0.589)
+}
+
+/* middle portion of tweet box, contains text input from textarea */
+.middle{
+    margin-left: 1em;
+    font-weight: 600;
+}
+
+/* bottom portion of tweet box, contains days since tweet was made, and 3 icons */
+.bottom{
+    height: 1.8em;
+    border-top: solid;
+    border-color: black;
+    margin-right: 1em;
+    margin-left: 1em;
+}
+
+.bottomContents{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.icons{
+    color: rgb(7, 7, 139);
+    margin-top: .25em;
+}
+
+.timePast{
+    display: flex;
+    margin-top: .25em;
+}
+
+
+
+
+
+

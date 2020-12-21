@@ -1,0 +1,19 @@
+.top-header{
+    margin-top: 5em;
+    width: 100%;
+    background-color: #c77e00;
+    background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
+}
+
+.avatar {
+    display: flex;
+    justify-content: center;
+    margin: 1.5em;
+}
+
+.name{
+    display: flex;
+    justify-content: center;
+}
+
+
