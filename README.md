@@ -10,6 +10,7 @@ This repository is the starter code for the project: Students will fork and clon
 !["Screenshot of TWEETER page"](https://github.com/Yourthy/tweeter/blob/master/docs/tweet-box1.png)
 !["Screenshot of TWEETER page with validation error (nothing entered into text area"](https://github.com/Yourthy/tweeter/blob/master/docs/tweet-box2.png)
 !["Screenshot of TWEETER page with validation error (number of characters was more than 140"](https://github.com/Yourthy/tweeter/blob/master/docs/tweet-box3.png)
+!["Screenshot of TWEETER page smaller width view](https://github.com/Yourthy/tweeter/blob/master/docs/tweet-box4.png)
 
 ## Getting Started
 
